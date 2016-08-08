@@ -5,6 +5,8 @@ The purpose of this project was to assess the demands of face recognition on mem
 
 There remain issues with lighting, accuracy,  and frame-rate when using inbuilt webcams. It may be the lower resolution cameras offer better outcome. Futher assessment is required to optimize capture and recognition. The high cpu consumption, related heat and energy use have implications for autonomous robots. 
 
+![facerecognition](https://cloud.githubusercontent.com/assets/12623902/17476453/76710b7e-5da3-11e6-8a55-21a899320c51.png)
+
 Original work on the GUI and video capture is by Luigi De Russis of the Politecnico di Torino and who's tutorial material can be found at https://github.com/opencv-java. Face training and face recognition where implimented by Igor who's Linux .so and .jar file can be found at https://github.com/heroinsoul. Compliling the face recognition system openCV for windows based machines and load assessments was undertaken by Jim O'Connorhorrill at Cuerobotics.  
 
 Download opencv-310 and install. Replace the .dll and .jar file in C:/opencv/build/java/x64 and C:/opencv/build/ respectively. The .dll was built for 64bit machines. 
