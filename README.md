@@ -7,6 +7,6 @@ There remain issues with lighting, accuracy,  and frame-rate when using inbuilt 
 
 Original work on the GUI and video capture is by Luigi De Russis of the Politecnico di Torino and who's tutorial material can be found at https://github.com/opencv-java. Face training and face recognition where implimented by Igor who's Linux .so and .jar file can be found at https://github.com/heroinsoul. Compliling the face recognition system openCV for windows based machines and load assessments was undertaken by Jim O'Connorhorrill at Cuerobotics.  
 
-Download opencv-310 and install. Replace the .dll and .jar file in C:/opencv/build/java/x64 and C:/opencv/build/ respectively. The .dll was build for 64bit machines. 
+Download opencv-310 and install. Replace the .dll and .jar file in C:/opencv/build/java/x64 and C:/opencv/build/ respectively. The .dll was built for 64bit machines. 
 
 
