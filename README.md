@@ -1,5 +1,5 @@
 # Face-Recognition
-This is an implementation of face recogniser in OpenCV-310 with the face module added to the opencv-310.jar and opencv_java.dll files for javaFX operating on a windows machine.
+This is an implementation of face recogniser in OpenCV-310 with the face module added to the opencv-310.jar and opencv_java.dll files for javaFX operating on a windows x64 machines.
 
 The purpose of this project was to assess the demands of face recognition on memory, cpu etc on various machines without cuda, tbb, or openGl. Devices ranged from an UDOO-Qaud with 1GB DDR to a Gigabyte ATX with i5 qaud core. The system is designed for deployment in aged care for patients with Alzheimer’s disease where nursing staff have been found to be resistent to operating Linux OS. It is intended the recognizer component allows the master-bot to determine who it communicating with and reference the individual in tts. 
 
