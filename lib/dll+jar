@@ -1,0 +1,7 @@
+
+
+Install opencv 3.10
+
+Replace the opencv-310.jar in C:/opencv/build/java/
+
+Replace the opencv_java310.dll in C:/opencv/build/java/x64/
