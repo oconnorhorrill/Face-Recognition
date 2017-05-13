@@ -284,7 +284,6 @@ public class FXController
 		        	labels.put(counter, 0, label);
 		        	counter++;
 		        }
-		        	System.out.println("I've got to line 294");
                                 //FaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
                                 BasicFaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
                                 //FaceRecognizer faceRecognizer = Face.createEigenFaceRecognizer(0,50);
