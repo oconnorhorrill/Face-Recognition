@@ -285,7 +285,7 @@ public class FXController
 		        	counter++;
 		        }
                                 //FaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
-                                BasicFaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
+                                BasicFaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
                                 //FaceRecognizer faceRecognizer = Face.createEigenFaceRecognizer(0,50);
 		        	faceRecognizer.train(images, labels);
 		        	faceRecognizer.save("traineddata");
@@ -307,7 +307,7 @@ public class FXController
             double[] confidence = new double[1];
             int result = -1;
             
-            BasicFaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
+            BasicFaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
             faceRecognizer.load("traineddata");
         	faceRecognizer.predict(currentFace,predLabel,confidence);
 //        	result = faceRecognizer.predict_label(currentFace);
