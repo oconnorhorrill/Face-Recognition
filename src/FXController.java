@@ -36,6 +36,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import org.opencv.face.BasicFaceRecognizer;
 import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.face.FaceRecognizer;
 
 
 
@@ -285,7 +286,7 @@ public class FXController
 		        	counter++;
 		        }
                                 //FaceRecognizer faceRecognizer = Face.createFisherFaceRecognizer(0,1500);
-                                BasicFaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
+                                FaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
                                 //FaceRecognizer faceRecognizer = Face.createEigenFaceRecognizer(0,50);
 		        	faceRecognizer.train(images, labels);
 		        	faceRecognizer.save("traineddata");
@@ -307,7 +308,7 @@ public class FXController
             double[] confidence = new double[1];
             int result = -1;
             
-            BasicFaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
+            FaceRecognizer faceRecognizer = Face.createLBPHFaceRecognizer();
             faceRecognizer.load("traineddata");
         	faceRecognizer.predict(currentFace,predLabel,confidence);
 //        	result = faceRecognizer.predict_label(currentFace);
